@@ -1,5 +1,4 @@
-file  = open("input.txt", "r")
-line = file.readlines()[0]
+line  = open("input.txt", "r").readlines()[0]
 
 def solve(line, length):
     for x in range(0,  len(line) - (length - 1)):
